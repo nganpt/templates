@@ -1,0 +1,40 @@
+.tbl-head-blue{
+  thead{
+    background: $tbl-head-blue;
+    tr{
+      th{
+        color: #fff!important;
+      }
+    }
+  }
+  tbody{
+    tr{
+      &:hover{
+        td{
+          border-top: 1px solid $tbl-head-blue!important;
+          border-bottom: 1px solid $tbl-head-blue;
+        }
+      }
+    }
+  }
+}
+.tbl-head-red{
+  thead{
+    background: $tbl-head-red;
+    tr{
+      th{
+        color: #fff!important;
+      }
+    }
+  }
+  tbody{
+    tr{
+      &:hover{
+        td{
+          border-top: 1px solid $tbl-head-red!important;
+          border-bottom: 1px solid $tbl-head-red;
+        }
+      }
+    }
+  }
+}
